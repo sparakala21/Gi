@@ -53,4 +53,4 @@ def rcos():
 def alyssa_p():
 	surname = "hapck.er"
 	remove = ". p"
-	return "p. hacker"
+	return "".join(letter for letter in surname if letter not in remove)
